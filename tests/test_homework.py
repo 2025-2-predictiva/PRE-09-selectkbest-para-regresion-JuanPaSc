@@ -37,7 +37,7 @@ def test_01():
     estimator = load_estimator()
 
     r2 = r2_score(
-        y,
+        y, 
         estimator.predict(x),
     )
 
